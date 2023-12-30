@@ -7,7 +7,7 @@ let Money = 0;
 let Multyplier = 1;
 let MultTime = false;
 
-var cooldownTime = 120;
+var cooldownTime = 30;
 var lastClickTime = 0;
 
 document.getElementById('Show_hideId').style.display = "none";
