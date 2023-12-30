@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Cookie Clicker</title>
+</head>
+<body>
+    <!--Shop-->
+    <div class="shopClass">
+        <button id="btn" type="button" onclick="show_hide(); animate_cookie()">Shop</button>
+        <div id="Show_hideId" class="BtnList">
+            <li><button id="Shop1" onclick="Buyed1()">1.5x Boost (450p), 3 Minutes</button></li>
+            <li><button id="Shop2" onclick="Buyed2()">2x Boost (1.000p), 3 Minutes</button></li>
+            <li><button id="Shop3" onclick="Buyed3()">2.5x Boost (1.750p), 4 Minutes</button></li>
+            <li><button id="Shop4" onclick="Buyed4()">3x Boost (4.800p), 5 Minutes</button></li>
+            <li><button id="Shop5" onclick="Buyed5()">1 Rebirth (10.000p)</button></li>
+        </div>
+    </div>
+    <!--Top-->
+    <div class="top">   
+        <h2>Cookie Clicker (Level 8) - Erreiche 25 Rebirths. SCHLIEßE NICHT DEN TAB</h2>
+        <p id="Multyplier">Multyplier = false (x0)</p>
+        <p id="points">Your points: 0</p> <br>
+        <p id="rebirths">Your Rebirths: 0</p>
+    </div>
+    <!--Middle-->
+    <div class="middle">
+        <button class="fa-sharp fa-solid fa-cookie" id="CookieBTN" type="button"></button>
+    </div>
+    <!--Script-->
+    <script src="index.js"></script>
+    <script src="rebirths.js"></script>
+</body>
+</html>
